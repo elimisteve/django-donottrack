@@ -53,7 +53,7 @@ Settings::
 Then in your template you can do things like::
 
     {% if not donottrack %}
-        {% include "google-analyitcs.html" %}
+        {% include "google-analytics.html" %}
     {% endif %}
 
 And your views can also handle DNT::
